@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+*::selection {
+  @apply bg-emerald-100 bg-purple-400/70;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ::-webkit-scrollbar {
+  @apply border-gray-100/20 h-1 w-1 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-rose-200/10 w-20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-400/90 rounded;
+} */
+
+
+@layer base {
+  .land::before {
+    inset: 0px;
+    content: "";
+    z-index: -100;
+    position: absolute;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    background-image: url("/header.svg"), url("/footer.svg");
+  }
+}
