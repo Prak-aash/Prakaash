@@ -56,10 +56,8 @@ const Hero = () => {
           <div className="mt-8 text-base md:text-xl lg:text-2xl">
             {/* <span className="px-2 py-1 font-medium select-none animate-text text-black bg-gradient-to-br from-orange-500 via-white to-green-500 rounded">Prakaash Murugesan</span>{" "} */}
             <h1 className="font-light sm:leading-6 md:leading-6 lg:leading-8">
-                Hello World! I&apos;m A Full Stack Next.js Developer, Designer, And Cyber Security Analyst With 5+ Years Of Expertise.
-                As A Cisco Certified Cybersecurity Ethical Hacker Specializing In Offensive Security, 
-                I&apos;ve Trained Over 150 Students Through Practical Hands-on Sessions. Passionate About Creating Innovative Ideas And Securing Society. 
-                Connect With Me On
+                Hello World! I&apos;m A Full Stack Next.js Developer, Designer, And A Certified Cybersecurity Ethical Hacker Specializing In Offensive Security With 5+ Years Of Expertise. 
+                Passionate About Creating Innovative Ideas And Securing Society. Connect With Me At
               <a
                 href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 onClick={() => navigator.clipboard.writeText("prak.aazh@gmail.com")}
