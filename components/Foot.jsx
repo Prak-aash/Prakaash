@@ -26,7 +26,7 @@ const Foot = () => {
         </Link>
       </div>
 
-      <a href="/Prakaash.pdf" target="blank" rel="noreferrer" className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 ">
+      <a href="https://flowcv.com/resume/t9golf8qh4" target="blank" rel="noreferrer" className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 ">
         <div onMouseOut={handleMouseOut} onMouseOver={handleMouseOver} className="relative transition-all ease-in-out duration-1000">
           <h1 className={`${isHovering && "scale-150 blur"} group font-bold animate-text duration-700 transition-all linear group-hover:bg-white lg:text-white/40 lg:group-hover:text-transparent bg-gradient-to-r mb-2 from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-sm sm:text-base md:text-lg`}>@prak-aash</h1>
           {isHovering && (<h1 className={`opacity-0 bg-purple-100 px-1 md:px-2 py-1 rounded-2xl bg-opacity-30 backdrop-blur-xl hover:opacity-100 transition-all duration-1000 linear absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-max text-gray-800 font-bold text-base z-10 `}>Amazing ⭐ My Resume</h1>
